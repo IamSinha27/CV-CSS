@@ -1,0 +1,194 @@
+body {
+  margin: 0px;
+  /* REFERS TO ALL 4 SIDES */
+
+  text-align: center;
+  /* Aligns all the content in the body to whichever way we want  */
+
+  font-family: "Merriweather", serif;
+  
+
+  
+}
+
+/* NOTE: USE INSPECT ELEMENTS TO IDENTIFY ELEMENTS THAT AFFECT THE MARGIN WHEN CHANGED */
+
+h1 {
+  margin-top: 50px,auto,0px,auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem; /* DYNAMIC FONT SIZING, rem helps to avoid compounding of font size over parent dynamic font size*/
+  color:#51a7a7;
+  line-height:2;   /*MAKES THE SPACE BETWEEN ELEMENTS ABOVE AND BELOW H1 TWICE OF WHAT IT ALREADY IS*/
+}
+
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size:2.5rem ;
+  color: #63b6b6;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+}
+
+.topcontainer {
+  background-color: #beebe0;
+  position: relative;
+  /* TO MAKE THE TOP CONTANER AS THE PARENT OF ELEMENTS IN IT. ELSE BODY IS THE PARENT BY DEFAULT */
+  padding-top: 100px;
+}
+
+.middle-container {
+ margin-bottom: 75px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  height: 175px;
+  
+}
+
+.bottomcloud {
+  position: absolute;
+  /* Is now free from the html workflow */
+  bottom: 300px;
+}
+
+.topcloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.webdev
+{
+    width: 25%;    /*50 PERCENT THE WIDTH OF ITS PARENT(DIV SKILL ROW)*/
+    float: left;
+    margin-right: 30px;
+}
+
+.coding
+{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.photography
+{
+   width: 25%;
+   float: left;
+   margin-right: 30px;
+}
+
+
+.programmer
+{
+    font-weight: normal;
+
+}
+
+.skill-row
+{
+  width:50%;            /*50 percent the width of its parent(body)*/
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+  text-align: left;
+}
+
+hr
+{
+  border-width: 10px;
+  border-style: dotted;
+  background-color: white;
+ 
+  width:5%;
+  border-top-style: none;  /* TO GET RID OF THE TOP BORDER(DOUBLE DOTS)*/
+ margin-top: 50px;
+border-color:#caf3f3 ;
+}
+
+.copyright-text
+{
+  color: white;
+  position: relative;
+  top: 60px;
+}
+
+.footer-link
+{
+  margin: 20px;
+  position: relative;
+  top: 55px;
+  color:  #11999E;
+  text-decoration: none;     /*REMOVES UNDERLINE*/
+  font-weight: bolder;
+  line-height: 2;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-link:hover
+{
+  color: white;
+
+}
+
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #66BFBF;
+  -webkit-box-shadow: 1px 1px 27px 3px #000000;
+  -moz-box-shadow: 1px 1px 27px 3px #000000;
+  box-shadow: 1px 1px 27px 3px #ffffff;
+  border: solid #66BFBF 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor:pointer;  /*changes cursor settings*/
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  position:relative;
+  top: 20px;
+
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #11999E);
+  background-image: -moz-linear-gradient(top, #1E62D0, #11999E);
+  background-image: -ms-linear-gradient(top, #1E62D0, #11999E);
+  background-image: -o-linear-gradient(top, #1E62D0, #11999E);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #11999E);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.contact-message
+{
+  width: 400px;
+  margin: auto;
+  margin-top: 50px
+}
+
+.pro
+{
+  text-decoration: underline;
+}
+
+
+
